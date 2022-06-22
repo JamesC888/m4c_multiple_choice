@@ -5,3 +5,12 @@
 // quiz ends when timer = 0
 // or when all questions answered
 // when game ends save initials and high score
+
+var timer = 88
+var startQuiz = document.querySelector("#start")
+
+
+startQuiz.addEventListener("click", function(){
+  alert("button works")
+
+})
