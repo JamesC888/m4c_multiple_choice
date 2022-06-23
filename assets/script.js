@@ -8,9 +8,16 @@
 
 var timer = 88
 var startQuiz = document.querySelector("#start")
+var begin =
+
+var q1 =
 
 
-startQuiz.addEventListener("click", function(){
-  alert("button works")
+function countdown(){
 
-})
+}
+
+
+
+
+startQuiz.addEventListener("click", begin)

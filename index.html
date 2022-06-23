@@ -5,25 +5,33 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./assets/style.css" />
-  <title>Web API Quiz</title>
+  <title>Javascript/Web API Quiz</title>
 </head>
 <body>
-  <section>
-    <div class ="center">
-      <h3>Begin Quiz</h3>
-    </div>
-  </section>
 
-  <section>
-    <div class ="center">
-      <button id = "start">Click Here</button>
-    </div>
-  </section>
+  <div id="begin">
+    <section>
+      <div class ="center">
+        <h1>Begin Quiz</h1>
+      </div>
+      <div class ="center">
+        <button id = "start">Click Here</button>
+      </div>
+    </section>
+  </div>
   
 
-  <section></section>
+  <div id="middle" class="hide">
+    <h2>Question</h2>
 
-  <section></section>
+
+  </div>
+
+  <div id="end" class="hide">
+    <h2>Scores</h2>
+
+
+  </div>
   
   <script type="text/javascript" src="./assets/script.js"></script>
 </body>
