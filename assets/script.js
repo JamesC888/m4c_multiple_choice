@@ -6,16 +6,50 @@
 // or when all questions answered
 // when game ends save initials and high score
 
-var timer = 88
+var timer = 33
 var startQuiz = document.querySelector("#start")
 var begin =
 
-var q1 =
+var questions = [
+  {
+    questionA:
+    answerA:
+    answerB:
+    answerC:
+    answerD:
+    key:
+  },
+
+  {
+    questionA:
+    answerA:
+    answerB:
+    answerC:
+    answerD:
+    key:
+  },
+
+  {
+    questionA:
+    answerA:
+    answerB:
+    answerC:
+    answerD:
+    key:
+  },
+  
+  {
+    questionA:
+    answerA:
+    answerB:
+    answerC:
+    answerD:
+    key:
+  }
+]
 
 
-function countdown(){
 
-}
 
 
 
